@@ -1,0 +1,93 @@
+﻿.premise-theme #content .headline-area
+{
+    margin-left:-20px;
+    margin-right:-20px;
+    margin-top:-35px;
+    height:114px;
+    background-position:0 -87px;
+}
+
+﻿.premise-theme #content .headline-area h1.entry-title
+{
+    position:relative;
+    top:140px;
+}
+
+﻿.premise-theme #content .headline-area a.logo
+{
+    display:none;
+    /*display: block;*/
+    float: left;
+    height: 154px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 283px;
+    background:url(images/logo.png);
+    position:relative;
+    top:-95px;
+    left:5px;
+}
+
+.premise-theme #content ul li, .premise-theme #content ol li
+{
+    margin-bottom:0.5em;
+    margin-left:50px;
+    line-height: 20px;
+}
+
+﻿.premise-theme .pricing-table-container
+{
+    display:none;
+}
+
+﻿.premise-theme .pricing-table-column-outside
+{
+    float:left;
+    position:relative;
+}
+
+﻿.premise-theme .pricing-table-column-outside.last .pricing-table-column,
+﻿.premise-theme .pricing-table-column-outside.last .pricing-table-column-header-outside
+{
+    margin-left:25px;
+}
+
+﻿.premise-theme .pricing-table-column-header-outside
+{
+    position:absolute;
+    top:0.5em;
+    left:-12px;
+    line-height:57px;
+    height:57px;
+    width:380px;
+    text-align: center;
+    color:#FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:19px;
+    background-image:url(images/oj-banner.png);
+
+}
+
+﻿.premise-theme #content .pricing-table-column-features.addSpace
+{
+    padding-top:5em;
+}
+
+
+.premise-theme table.benefits 
+{
+    border-top:1px solid purple;
+    border-bottom:1px solid purple;
+    border-collapse:collapse;
+}
+.premise-theme table.benefits tbody td
+{
+    padding:0.5em 1em;
+    line-height: 20px;
+    color: #620045;
+}
+.premise-theme table.benefits tbody tr:nth-child(even)
+{
+    background-color: #e4d3df;
+}
