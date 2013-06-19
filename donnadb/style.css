@@ -84,6 +84,23 @@
     width:auto;
 }
 
+#mc_embed_signup{
+    width:300px;
+    margin:0 auto;
+}
+
+#mc_embed_signup form,
+#mc_embed_signup input {
+    width:100%;
+    margin-bottom: 1em;
+}
+
+#mc_embed_signup input[type="submit"]{
+    width:35%;
+    margin:0px auto;
+    display:block;
+}
+
 
 /* Defaults
 ------------------------------------------------------------ */
@@ -180,7 +197,7 @@ body.generate-landing {
 ------------------------------------------------------------ */
 
 #wrap {
-	background-color:#F2EBD9;
+	background-color:transparent;/*#F2EBD9;*/
 }
 
 
@@ -1063,8 +1080,8 @@ h1 {
 h2,
 h2 a,
 h2 a:visited {
-	color: #222;
-	font-family: 'Helvetica Neue', Arial, Tahoma, sans-serif;
+	/color: #222;
+	font-family: 'Candara', 'Bree Serif', 'Helvetica Neue', Arial, Tahoma, sans-serif;
 	font-size: 30px;
 	font-weight: bold;
 	line-height: 36px;
@@ -1074,12 +1091,11 @@ h2 a:visited {
 
 .generate-landing h2,
 .generate-landing h2 a,
-.generate-landing h2 a:visited,
-.generate-landing h3,
-.generate-landing h3 a {
+.generate-landing h2 a:visited
+{
     color: #222;
-    /*font-family: Georgia, serif;*/
-    font-size: 20px;
+    font-family: 'Candara', 'Bree Serif', 'Helvetica Neue', Arial, Tahoma, sans-serif;
+    font-size: 23px;
     line-height:26px;
     margin-top:10px;
 }
@@ -1087,10 +1103,16 @@ h2 a:visited {
 .generate-landing h3,
 .generate-landing h3 a
 {
+    font-size:18px;
+    line-height:20px;
+}
+.generate-landing h4,
+.generate-landing h4 a
+{
+    color: #EF5B29;    
     font-size:16px;
     line-height:20px;
 }
-
 h1.entry-title,
 h2.entry-title {
 	display: block;
@@ -1101,8 +1123,8 @@ h2.entry-title {
 .generate-landing h1.entry-title,
 .generate-landing h2.entry-title
 {
-    font-family: Georgia, serif;
-    font-size:28px;
+    font-family: 'Candara', 'Bree Serif', 'Helvetica Neue', Arial, Tahoma, sans-serif;
+    font-size:32px;
 }
 
 .page h1.entry-title, .page h2.entry-title
@@ -1159,6 +1181,7 @@ h2 a:hover {
 
 h3 {
 	font-size: 24px;
+	line-height: 26px;
 }
 
 h4 {
