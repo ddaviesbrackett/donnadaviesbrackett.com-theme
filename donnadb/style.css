@@ -192,12 +192,32 @@ body.generate-landing {
 	background-color: #f3f3f3;
 }
 
+/*background image*/
+.content-sidebar #content-sidebar-wrap,
+.full-width-content #content-sidebar-wrap,
+.generate-landing #content-sidebar-wrap,
+.sidebar-content #content-sidebar-wrap,
+#header .wrap {
+    background: url(images/topright_bkg.png) #fff no-repeat top right;
+}
+
+#nav .wrap {
+    background:#fff;
+    height:40px;
+}
+
+.content-sidebar #content-sidebar-wrap,
+.full-width-content #content-sidebar-wrap,
+.generate-landing #content-sidebar-wrap,
+.sidebar-content #content-sidebar-wrap {
+    background-position-y: -188px;
+}
 
 /* Wrap
 ------------------------------------------------------------ */
 
 #wrap {
-	background-color:transparent;/*#F2EBD9;*/
+    margin-top:2em;
 }
 
 
@@ -211,11 +231,10 @@ body.generate-landing {
 
 #header .wrap {
 	margin: 0 auto;
-	width: 960px;
+	width: 1000px;
 }
 
 #title-area {
-	float: left;
 	padding: 20px 0 0;
 	width: 450px;
 }
@@ -258,15 +277,15 @@ body.generate-landing {
 ------------------------------------------------------------ */
 
 .header-image #header #title-area {
-	background: url(images/logo.png) left top no-repeat;
+	background: url(images/DDB_logo_web.png) #fff left 2em top 2em no-repeat;
+    padding:2em 0 0.5em 2em;
 }
 
 .header-image #title-area,
 .header-image #title,
 .header-image #title a {
 	display: block;
-	float: left;
-	height: 154px;
+	height: 113px;
 	padding: 0;
 	text-indent: -9999px;
 	width: 283px;
@@ -408,13 +427,10 @@ li a .sf-sub-indicator {
 ------------------------------------------------------------ */
 
 #nav {
-	background: Transparent url(images/bg-top.png) no-repeat center bottom;
 	clear: both;
-	height: 72px;
 }
 .generate-landing #nav
 {
-    background-image:url(images/bg-top-700.png);
 }
 
 #nav .wrap {
@@ -427,7 +443,7 @@ li a .sf-sub-indicator {
 
 #nav li {
 	background: url(images/nav-line.png) right no-repeat;
-	float: left;
+	float:left;
 	list-style-type: none;
 }
 .generate-landing #nav li:nth-child(4)
@@ -456,7 +472,7 @@ li a .sf-sub-indicator {
 #nav .current_page_item a,
 #nav .current-cat a,
 #nav .current-menu-item a {
-	color: #fff;
+	color: #620045;
 }
 
 #nav li li {
@@ -752,11 +768,6 @@ li a .sf-sub-indicator {
 	width: 1000px;
 }
 
-.home #inner .wrap 
-{
-	background: #FFF url(images/bg-bottom.png) no-repeat center bottom;
-}
-
 #inner .wrap h1,
 #inner .wrap h2,
 #inner .wrap h2 a,
@@ -767,24 +778,6 @@ li a .sf-sub-indicator {
 #inner .wrap h6,
 #inner .wrap strong{
 	color: #620045;
-}
-
-.page.home #inner .wrap h1,
-.page.home #inner .wrap h2,
-.page.home #inner .wrap h2 a,
-.page.home #inner .wrap h2 a:visited,
-.page.home #inner .wrap h3,
-.page.home #inner .wrap h4,
-.page.home #inner .wrap h5,
-.page.home #inner .wrap h6,
-.page.home #inner .wrap strong,
-.page.home #inner .wrap p {
-	color: #C18EB6;
-}
-
-.page.home #inner .wrap strong
-{
-    color:#FFF;
 }
 
 .page-template-default #content-sidebar-wrap,
@@ -844,12 +837,6 @@ li a .sf-sub-indicator {
 #content-sidebar-wrap {
 	float: left;
 	width: 750px;
-	background: #FFF url(images/bg-bottom-tall.png) no-repeat center -60px;
-}
-
-.home #content-sidebar-wrap
-{
-	background:#620045;
 }
 
 .content-sidebar #content-sidebar-wrap,
@@ -867,7 +854,6 @@ li a .sf-sub-indicator {
 	float: left;
 	padding: 0 0 20px;
 	width: 450px;
-	margin-top:130px;
 }
 
 .content-sidebar #content,
@@ -920,11 +906,11 @@ blockquote p {
 
 .entry-content a,
 .entry-content a:visited {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .entry-content a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .entry-content p {
@@ -1602,7 +1588,7 @@ p.wp-caption-text {
 
 .sidebar img.selfPortrait
 {
-    border:solid 10px #620045;
+    border:solid 10px #FFF;
     width:200px;
 	-webkit-box-shadow: 0 0 10px 0px #222;
     -moz-box-shadow: 0 0 10px 0px #222;
@@ -2444,14 +2430,18 @@ body.generate-landing #content ul li, body.generate-landing #content ol li
 
     #nav ul 
     {
-        float: right;
-        position:relative;
-        top:65px;
+        width:100%;
     }
+        #nav ul li
+        {
+            width: 20%;
+            text-align: center;
+            border-top: solid 2px #620045;
+            border-bottom: solid 2px #620045;
+        }
     .header-image #title-area
     {
-	    position:absolute;
-	    top:35px;
+	    
     }
 
 
@@ -2464,6 +2454,7 @@ body.generate-landing #content ul li, body.generate-landing #content ol li
         position:static;
         top:0;
     }
+        
     
     .header-image #title-area
     {
