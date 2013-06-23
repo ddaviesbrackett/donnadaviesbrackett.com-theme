@@ -192,11 +192,9 @@ body.generate-landing {
 	background-color: #f3f3f3;
 }
 
-/*background image*/
-.content-sidebar #content-sidebar-wrap,
-.full-width-content #content-sidebar-wrap,
-.generate-landing #content-sidebar-wrap,
-.sidebar-content #content-sidebar-wrap,
+/* Background image
+------------------------------------------------------------ */
+#content-sidebar-wrap,
 #header .wrap {
     background: url(images/topright_bkg.png) #fff no-repeat top right;
 }
@@ -206,10 +204,7 @@ body.generate-landing {
     height:40px;
 }
 
-.content-sidebar #content-sidebar-wrap,
-.full-width-content #content-sidebar-wrap,
-.generate-landing #content-sidebar-wrap,
-.sidebar-content #content-sidebar-wrap {
+#content-sidebar-wrap {
     background-position-y: -188px;
 }
 
@@ -1560,9 +1555,7 @@ p.wp-caption-text {
 	line-height: 20px;
 	padding:0 20px;
 	width: 259px;
-	/*background:#FFFFFF url(images/sidebar-bg.png) repeat-y left; */
-	margin-top:130px;
-	border-left:dotted 1px #C18EB6;
+    margin-top:100px;
 }
 
 .home .sidebar
