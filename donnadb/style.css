@@ -775,13 +775,13 @@ li a .sf-sub-indicator {
 	color: #620045;
 }
 
-.page-template-default #content-sidebar-wrap,
-.page-template-page_blog-php #content-sidebar-wrap,
-.page-template-page_landing-php #content-sidebar-wrap
+#header .wrap,
+#nav .wrap,
+#content-sidebar-wrap
 {
-	-webkit-box-shadow: 0 3px 6px 0px #888;
+	-webkit-box-shadow: 0 0 6px 0px #888;
     -moz-box-shadow: 0 3px 6px 0px #888;
-    box-shadow: 0 3px 6px 0px #888;
+    box-shadow: 0 0 6px 0px #888;
 }
 
 .generate-landing #inner {
