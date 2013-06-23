@@ -205,6 +205,10 @@ body.generate-landing {
 }
 
 #content-sidebar-wrap {
+    background-position-y: -148px;
+}
+
+#nav + #inner .wrap #content-sidebar-wrap {
     background-position-y: -188px;
 }
 
@@ -296,10 +300,6 @@ left:20px;
 .generate-landing #header
 {
 min-height:0px;
-}
-.generate-landing #content-sidebar-wrap
-{
-background-position-y: -35px;
 }
 .header-image #description {
 	display: block;
