@@ -441,10 +441,7 @@ li a .sf-sub-indicator {
 	float:left;
 	list-style-type: none;
 }
-.generate-landing #nav li:nth-child(4)
-{
-    clear:both;
-}
+
 #nav li:last-child
 {
     background:none;
@@ -803,10 +800,6 @@ li a .sf-sub-indicator {
 	padding: 0;
 }
 
-.generate-landing #inner .wrap {
-	width: 700px;
-}
-
 .sidebar-content #inner .wrap {
 	background: url(images/inner-sc.png);
 }
@@ -861,7 +854,7 @@ li a .sf-sub-indicator {
 
 #content {
 	float: left;
-	padding: 0 0 20px;
+	padding: 20px 0;
 	width: 450px;
 }
 
@@ -886,7 +879,8 @@ li a .sf-sub-indicator {
 }
 
 .generate-landing.full-width-content #content {
-	width: 620px;
+	width: 700px;
+    padding:20px 150px;
 }
 
 blockquote {
@@ -1130,7 +1124,6 @@ h2.entry-title {
 .page-template-page_landing-php.page #wrap .wrap h1.entry-title,
 .page-template-page_landing-php.page #wrap .wrap h2.entry-title 
 {
-    display:block;
     text-align:center;
 }
 
@@ -2400,11 +2393,6 @@ div.gform_wrapper .gform_footer {
 	color: #d05b00;
 }
 
-body.generate-landing #nav .wrap,
-body.generate-landing #header .wrap
-{
-	width:700px;
-}
 body.generate-landing table.benefits
 {
     border-top:1px solid purple;
