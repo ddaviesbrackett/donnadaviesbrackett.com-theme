@@ -131,7 +131,7 @@ select,
 textarea {
 	color: #620045;
 	font-family: Candara, 'Helvetica Neue', Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: normal;
 	line-height: 20px;
 	margin: 0;
@@ -1073,26 +1073,20 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Candara', 'Bree Serif', 'Helvetica Neue', Arial, Tahoma, sans-serif;
-	font-weight: bold;
 	margin: 0 0 10px;
 }
 
 h1 {
-	font-family: 'Candara', 'Bree Serif', 'Helvetica Neue', Arial, Tahoma, sans-serif;
-	font-size: 36px;
-	font-weight: bold;
+	font-size: 34px;
 	line-height: 38px;	
 }
 
 h2,
 h2 a,
 h2 a:visited {
-	/color: #222;
-	font-family: 'Candara', 'Bree Serif', 'Helvetica Neue', Arial, Tahoma, sans-serif;
-	font-size: 30px;
+	font-size: 34px;
 	font-weight: bold;
-	line-height: 36px;
+	line-height: 38px;
 	text-decoration: none !important;
 }
 
@@ -1101,25 +1095,22 @@ h2 a:visited {
 .generate-landing h2 a,
 .generate-landing h2 a:visited
 {
-    color: #222;
-    font-family: 'Candara', 'Bree Serif', 'Helvetica Neue', Arial, Tahoma, sans-serif;
-    font-size: 23px;
-    line-height:26px;
+    font-size: 34px;
+    line-height:38px;
     margin-top:10px;
 }
 
 .generate-landing h3,
 .generate-landing h3 a
 {
-    font-size:18px;
-    line-height:20px;
+    font-size:22px;
+    line-height:24px;
 }
 .generate-landing h4,
 .generate-landing h4 a
 {
-    color: #EF5B29;    
-    font-size:16px;
-    line-height:20px;
+    font-size:20px;
+    line-height:22px;
 }
 h1.entry-title,
 h2.entry-title {
@@ -1128,12 +1119,6 @@ h2.entry-title {
 	padding: 10px 0 4px 33px;
 }
 
-.generate-landing h1.entry-title,
-.generate-landing h2.entry-title
-{
-    font-family: 'Candara', 'Bree Serif', 'Helvetica Neue', Arial, Tahoma, sans-serif;
-    font-size:32px;
-}
 
 .page h1.entry-title, .page h2.entry-title
 {
@@ -1187,13 +1172,15 @@ h2 a:hover {
 }
 
 h3 {
-	font-size: 24px;
-	line-height: 26px;
+	font-size: 22px;
+	line-height: 24px;
 }
 
 h4 {
-	font-size: 18px;
+	font-size: 20px;
 }
+
+
 
 .widget-area h4 {
 	font-size: 14px;
@@ -1239,11 +1226,11 @@ h4 {
 }
 
 h5 {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 h6 {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 
